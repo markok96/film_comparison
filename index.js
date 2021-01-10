@@ -1,5 +1,5 @@
 const apiKey = '88044aaa';
-const url = 'https://www.omdbapi.com/?'
+const url = 'http://www.omdbapi.com/?'
 
 const autoCompleteConfig = {
     renderOption(movie) {
