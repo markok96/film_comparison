@@ -102,9 +102,7 @@ const movieTemplate = (movieDetail) => {
             return prev + value;
         }
     }, 0));
-    console.log(awards);
 
-    console.log(metascore, imdbRating, imdbVotes);
     return `
         <article class="media">
             <figure class="media-left">
@@ -139,54 +137,3 @@ const movieTemplate = (movieDetail) => {
         </article>
     `;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// async function getMovie() {
-//     try {
-//         const response = await axios.get(url, {
-//             params: {
-//                 apiKey: apiKey,
-//                 s: 'batman'
-//             }
-//         });
-//         console.log(response);
-//     } catch (error) {
-//         console.log(error);
-//     }
-// }
-
-// getMovie();
