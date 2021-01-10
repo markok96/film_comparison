@@ -1,0 +1,43 @@
+.title {
+    text-align: center;
+}
+
+.column {
+    background-color: #eee;
+}
+
+.columns {
+    margin-top: 0;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.dropdown-item img {
+    height: 50px;
+    margin-right: 12px;
+}
+
+figure .image {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+figure .image img {
+    width: 150px;
+    height: 220px;
+}
+
+.notification {
+    margin-top: 20px !important;
+}
+
+.tutorial {
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
