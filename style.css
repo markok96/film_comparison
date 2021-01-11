@@ -32,6 +32,10 @@ figure .image img {
     height: 220px;
 }
 
+.media {
+    height: 50vh;
+}
+
 .notification {
     margin-top: 20px !important;
 }
